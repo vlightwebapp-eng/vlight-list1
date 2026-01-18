@@ -51,7 +51,7 @@
 <script>
   let masterData = [];
   // GASで「デプロイ」した際の発行URLをここに貼り付けてください
-  const gasUrl = "ここにGASのウェブアプリURLを貼り付けてください";
+  const gasUrl = "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLiwkHIT2VTLZyrXKluuzfgsg_I2CnefNM4rhkSwNdXA4voo6ClfrgK6ioAQdjW6v4rh_SuV94ZuFpVF5o3BFBWcgdogUG8xM3pJERbKCOkfwLPDOYTUmdBnOWx9R504T_dl5CCcVII4D9uh5U4jJNZy7kwIgqL9OC6reHz57O3hF4MlIHZKizyrDUW0tbG3kXgWb6jdkN49NLQVLfsFCqc_ePM-crV7RKUWGSFYEz9MO86e0clUwWfn7tI6PaCZcxLgKJfjcl76csbqwCJBJ1Fw10vcJA&lib=MpQ53r1vW1WlF63ZDbQV4zSAjgcfyBLfE";
 
   function updateClock() { document.getElementById('clock').textContent = new Date().toLocaleTimeString('ja-JP', { hour12: false }); }
   setInterval(updateClock, 1000);
